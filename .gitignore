@@ -1,0 +1,117 @@
+*.scratch
+/.scratch/
+
+/apps/
+*.logs
+*.env
+*/mypy_cache/
+
+# Byte-compiled / optimized / DLL files
+*__pycache__/
+*.so
+
+# C extensions
+*.so
+
+# Compiled output
+/bin/
+/build/
+/dist/
+/node_modules/
+/out/
+/target/
+
+# Cython debug symbols
+cython_debug/
+
+# Database files
+*.db
+*.sqlite
+
+# Dependency management
+/venv/
+/pipenv/
+/poetry.lock
+
+# Development environment configuration
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Editor/IDE files
+.idea/
+.vs/
+*.swp
+*~
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IPython
+ipython_config.py
+profile_default/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+jupyter/
+jupyter-pytorch/
+jupyter-pytorch/
+jupyter/
+
+# Logs and temporary files
+/logs/
+/log/
+/tmp/
+*.log
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache
+.cover/
+.hypothesis/
+.nox/
+.pytest_cache/
+cover/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Other files
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-delete-this-directory.txt
+pip-log.txt
+
+# TODO: Cmake
+CMakeCache.txt
+cmake_install.cmake
+# etc.
+
