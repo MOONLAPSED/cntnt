@@ -1,6 +1,9 @@
 *.scratch
 /.scratch/
 
+/.dev/*
+.dev/
+
 /apps/
 *.logs
 *.env
