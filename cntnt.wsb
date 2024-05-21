@@ -17,6 +17,6 @@
         </MappedFolder>
     </MappedFolders>
     <LogonCommand>
-        <Command>powershell.exe -ExecutionPolicy Bypass -Command "& {Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh'); Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/MOONLAPSED/cntnt/main/cntnt.ps1')}"</Command>
+        <Command>powershell.exe -ExecutionPolicy Bypass -Command "Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')"</Command>
     </LogonCommand>
 </Configuration>
